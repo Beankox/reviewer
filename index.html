@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Law 101 Reviewer: Obligations and Contracts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu" type="button" aria-label="Open contents" aria-expanded="false">Contents</button>
+    <input id="search" type="search" placeholder="Search the reviewer" aria-label="Search the reviewer">
+    <span id="count" aria-live="polite"></span>
+    <button id="quiz-toggle" type="button">Take the quiz</button>
+    <button id="theme" type="button" aria-label="Switch light or dark theme">Theme</button>
+  </header>
+  <nav id="toc" aria-label="Contents"></nav>
+  <main id="doc"><p class="status">Loading reviewer…</p></main>
+  <main id="quiz" hidden aria-label="Quiz"></main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="reviewer.js"></script>
+  <script src="script.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
